@@ -1,3 +1,5 @@
+from db import init_db
+init_db()
 from flask import Flask, request
 import requests
 
